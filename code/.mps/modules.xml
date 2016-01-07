@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/_spreferences/TypeSizeConfiguration/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.concurrent/com.mbeddr.ext.concurrent.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.ext.concurrent.runtime/com.mbeddr.ext.concurrent.runtime.msd" folder="core" />
+    </projectModules>
+  </component>
+</project>
