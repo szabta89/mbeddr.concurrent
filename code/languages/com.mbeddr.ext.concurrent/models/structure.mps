@@ -14,10 +14,10 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
-        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -25,9 +25,6 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
-      </concept>
-      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
-        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -37,46 +34,54 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
   <node concept="1TIwiD" id="2EE6RFm5RyX">
-    <property role="TrG5h" value="ExprBoundToStruct" />
+    <property role="TrG5h" value="BindingExpression" />
     <property role="1pbfSe" value="12686391" />
+    <property role="34LRSv" value="with binding" />
+    <property role="3GE5qa" value="helper" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="2EE6RFm5Yqk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expr" />
+      <property role="20kJfa" value="target" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="2EE6RFm5Yqm" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="structExpr" />
+      <property role="20kJfa" value="source" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
+    <node concept="PrWs8" id="2A21Qr5FhVS" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
   </node>
   <node concept="1TIwiD" id="18pvTIfxd2f">
-    <property role="TrG5h" value="Future" />
+    <property role="TrG5h" value="TaskRun" />
     <property role="34LRSv" value="run" />
     <property role="1pbfSe" value="1583460310" />
-    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <property role="3GE5qa" value="task" />
+    <property role="R4oN_" value="run task" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7oaG_MMJthL" role="PzmwI">
       <ref role="PrY4T" to="mj1l:40tXLnqhXcx" resolve="IGenericDotTarget" />
-    </node>
-    <node concept="1TJgyi" id="7CAttoKceOe" role="1TKVEl">
-      <property role="TrG5h" value="variableName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="18pvTIfxfTf">
     <property role="TrG5h" value="FutureJoin" />
     <property role="34LRSv" value="join" />
     <property role="1pbfSe" value="1583448598" />
-    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <property role="3GE5qa" value="task" />
+    <property role="R4oN_" value="join future" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3CCaU8w7AJ6" role="PzmwI">
       <ref role="PrY4T" to="mj1l:40tXLnqhXcx" resolve="IGenericDotTarget" />
     </node>
@@ -85,7 +90,9 @@
     <property role="TrG5h" value="FutureResult" />
     <property role="34LRSv" value="result" />
     <property role="1pbfSe" value="728804172" />
-    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <property role="3GE5qa" value="task" />
+    <property role="R4oN_" value="get future result" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2ontRW5mjfe" role="PzmwI">
       <ref role="PrY4T" to="mj1l:40tXLnqhXcx" resolve="IGenericDotTarget" />
     </node>
@@ -94,6 +101,7 @@
     <property role="TrG5h" value="FutureType" />
     <property role="34LRSv" value="Future" />
     <property role="1pbfSe" value="1583379190" />
+    <property role="3GE5qa" value="task" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
     <node concept="1TJgyj" id="18pvTIfCsTU" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -224,6 +232,7 @@
     <property role="TrG5h" value="Task" />
     <property role="34LRSv" value="|" />
     <property role="1pbfSe" value="1583712421" />
+    <property role="3GE5qa" value="task" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="2ontRW4FnWG" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -236,6 +245,8 @@
     <property role="TrG5h" value="TaskClear" />
     <property role="34LRSv" value="clear" />
     <property role="1pbfSe" value="80011422" />
+    <property role="3GE5qa" value="task" />
+    <property role="R4oN_" value="clear task" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="PrWs8" id="6WcJp6cbA9q" role="PzmwI">
       <ref role="PrY4T" to="mj1l:40tXLnqhXcx" resolve="IGenericDotTarget" />
@@ -245,6 +256,7 @@
     <property role="TrG5h" value="TaskType" />
     <property role="34LRSv" value="Task" />
     <property role="1pbfSe" value="1583384456" />
+    <property role="3GE5qa" value="task" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
     <node concept="1TJgyj" id="18pvTIfxvC0" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

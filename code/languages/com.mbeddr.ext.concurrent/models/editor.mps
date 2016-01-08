@@ -131,19 +131,26 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
   <node concept="24kQdi" id="2EE6RFm8sBL">
-    <ref role="1XX52x" to="vpss:2EE6RFm5RyX" resolve="ExprBoundToStruct" />
+    <property role="3GE5qa" value="helper" />
+    <ref role="1XX52x" to="vpss:2EE6RFm5RyX" resolve="BindingExpression" />
     <node concept="3EZMnI" id="2EE6RFm8wpl" role="2wV5jI">
+      <node concept="3F0ifn" id="2A21Qr5DPEh" role="3EZMnx">
+        <property role="3F0ifm" value="with binding" />
+      </node>
       <node concept="3F1sOY" id="2EE6RFmaZbi" role="3EZMnx">
         <ref role="1NtTu8" to="vpss:2EE6RFm5Yqk" />
       </node>
       <node concept="3F0ifn" id="2EE6RFm8wrd" role="3EZMnx">
-        <property role="3F0ifm" value="bound to" />
+        <property role="3F0ifm" value="&lt;-" />
       </node>
       <node concept="3F1sOY" id="2EE6RFmaZDR" role="3EZMnx">
         <ref role="1NtTu8" to="vpss:2EE6RFm5Yqm" />
@@ -152,6 +159,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="18pvTIfCsxF">
+    <property role="3GE5qa" value="task" />
     <ref role="1XX52x" to="vpss:18pvTIfxwPJ" resolve="FutureType" />
     <node concept="3EZMnI" id="18pvTIfCszs" role="2wV5jI">
       <node concept="3F0ifn" id="18pvTIfCszt" role="3EZMnx">
@@ -175,7 +183,7 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="2iRfu4" id="18pvTIfCszD" role="2iSdaV" />
+      <node concept="l2Vlx" id="1xijt7qL6x7" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="36dwPL2YRNn">
@@ -371,6 +379,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="18pvTIfxwNP">
+    <property role="3GE5qa" value="task" />
     <ref role="1XX52x" to="vpss:18pvTIfxvzt" resolve="TaskType" />
     <node concept="3EZMnI" id="18pvTIfxwNR" role="2wV5jI">
       <node concept="3F0ifn" id="18pvTIfxwNY" role="3EZMnx">
@@ -389,10 +398,11 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="2iRfu4" id="18pvTIfxwNU" role="2iSdaV" />
+      <node concept="l2Vlx" id="5zpc63IwqRv" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="18pvTIfwUqV">
+    <property role="3GE5qa" value="task" />
     <ref role="1XX52x" to="vpss:18pvTIfwfv0" resolve="Task" />
     <node concept="3EZMnI" id="18pvTIfx2kS" role="2wV5jI">
       <node concept="3F0ifn" id="18pvTIfx2kZ" role="3EZMnx">
@@ -410,7 +420,7 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="2iRfu4" id="18pvTIfx2kV" role="2iSdaV" />
+      <node concept="l2Vlx" id="5zpc63Iwjf9" role="2iSdaV" />
     </node>
   </node>
   <node concept="1h_SRR" id="3KG8Xm3BhXN">
@@ -485,6 +495,34 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6ERSKxNiG6J">
+    <property role="3GE5qa" value="task" />
+    <ref role="1XX52x" to="vpss:18pvTIfxd2f" resolve="TaskRun" />
+    <node concept="3F0ifn" id="6ERSKxNiG6L" role="2wV5jI">
+      <property role="3F0ifm" value="run" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6ERSKxNiG6V">
+    <property role="3GE5qa" value="task" />
+    <ref role="1XX52x" to="vpss:6WcJp6cbA7h" resolve="TaskClear" />
+    <node concept="3F0ifn" id="6ERSKxNiG6X" role="2wV5jI">
+      <property role="3F0ifm" value="clear" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="57S_UBgC1c_">
+    <property role="3GE5qa" value="task" />
+    <ref role="1XX52x" to="vpss:2ontRW5mjfd" resolve="FutureResult" />
+    <node concept="3F0ifn" id="57S_UBgC1cB" role="2wV5jI">
+      <property role="3F0ifm" value="result" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="57S_UBgCbqR">
+    <property role="3GE5qa" value="task" />
+    <ref role="1XX52x" to="vpss:18pvTIfxfTf" resolve="FutureJoin" />
+    <node concept="3F0ifn" id="57S_UBgCbqT" role="2wV5jI">
+      <property role="3F0ifm" value="join" />
     </node>
   </node>
 </model>
