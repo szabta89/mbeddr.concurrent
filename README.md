@@ -1,1 +1,1 @@
-# mbeddr.concurrent
+Concurrency support in mbeddr; task abstraction, synchronized statements, shared resources and experiments with optimizations based on these constructs. The project is based on the initial effort of https://github.com/aloifolia/ParallelMbeddr. 
