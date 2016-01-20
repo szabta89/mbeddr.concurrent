@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="-1" />
+    </dependencies>
+    <rename id="6i3o.1304213873204985423" type="CONCEPT" from="RunningTask" to="JoinedTask" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="0" />
+    </dependencies>
+    <rename id="6i3o.1304213873205052257" type="CONCEPT" from="TaskType" to="RunningTaskType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="1" />
+    </dependencies>
+    <rename id="6i3o.1304213873205049882" type="CHILD" from="parameterTypes" to="argumentTypes" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="2" />
+    </dependencies>
+    <rename id="6i3o.1304213873204740984" type="CHILD" from="function" to="functionCall" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="3" />
+    </dependencies>
+    <rename id="6i3o.1304213873204985424" type="CHILD" from="task" to="runningTask" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="4" />
+    </dependencies>
+    <rename id="6i3o.1304213873212674440" type="CONCEPT" from="RunningTaskType" to="JoinedTaskType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="5" />
+    </dependencies>
+    <rename id="6i3o.1304213873212674441" type="REFERENCE" from="task" to="runningTask" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="6" />
+    </dependencies>
+    <rename id="6i3o.1304213873205054831" type="CONCEPT" from="RunningTaskType" to="FutureType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="7" />
+    </dependencies>
+    <rename id="6i3o.1304213873204985423" type="CONCEPT" from="JoinedTask" to="JoinTask" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="8" />
+    </dependencies>
+    <rename id="6i3o.1304213873204985423" type="CONCEPT" from="JoinTask" to="TaskJoin" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="9" />
+    </dependencies>
+    <rename id="6i3o.2744793885339890637" type="CONCEPT" from="TaskJoin" to="TaskResult" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="10" />
+    </dependencies>
+    <rename id="6i3o.3604883996548064304" type="CHILD" from="expression" to="statements" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="11" />
+    </dependencies>
+    <rename id="6i3o.1304213873204985423" type="CONCEPT" from="TaskJoin" to="FutureJoin" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="12" />
+    </dependencies>
+    <rename id="6i3o.7288607883536646834" type="CONCEPT" from="FutureContainer" to="FutureJoinContainer" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="13" />
+    </dependencies>
+    <rename id="6i3o.7288607883536646835" type="CHILD" from="task" to="future" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="14" />
+    </dependencies>
+    <rename id="6i3o.2744793885339890637" type="CONCEPT" from="TaskResult" to="FutureResult" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="15" />
+    </dependencies>
+    <rename id="6i3o.1924594752095321661" type="CONCEPT" from="SharedRessource" to="SharedRessourceType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="16" />
+    </dependencies>
+    <rename id="6i3o.3604883996548064272" type="CHILD" from="variables" to="ressources" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="17" />
+    </dependencies>
+    <rename id="6i3o.1924594752095502558" type="CONCEPT" from="SharedRessourceVal" to="Unshare" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="18" />
+    </dependencies>
+    <rename id="6i3o.1924594752095321661" type="CONCEPT" from="SharedRessourceType" to="SharedType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="19" />
+    </dependencies>
+    <rename id="6i3o.1924594752095502558" type="CONCEPT" from="Unshare" to="SharedGet" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="20" />
+    </dependencies>
+    <rename id="6i3o.3570654511858570918" type="CONCEPT" from="SetShared" to="SharedSet" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="21" />
+    </dependencies>
+    <rename id="6i3o.6553204290893807643" type="CONCEPT" from="SyncRessource" to="SyncRessourcePlain" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="22" />
+    </dependencies>
+    <rename id="6i3o.6553204290893807643" type="CONCEPT" from="SyncRessourcePlain" to="SyncRess" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="23" />
+    </dependencies>
+    <rename id="6i3o.6553204290894227496" type="CONCEPT" from="Sync2" to="SyncStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="24" />
+    </dependencies>
+    <rename id="6i3o.6553204290893807643" type="CONCEPT" from="SyncRessourcePlain" to="SyncRessource" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="25" />
+    </dependencies>
+    <rename id="6i3o.6288388922743435028" type="CONCEPT" from="SyncRessRef" to="SyncRessourceRef" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="26" />
+    </dependencies>
+    <rename id="6i3o.6288388922742659454" type="CONCEPT" from="SyncRessNamed" to="SyncRessourceNamed" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="27" />
+    </dependencies>
+    <rename id="6i3o.6553204290894227498" type="CHILD" from="statements" to="body" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="28" />
+    </dependencies>
+    <rename id="6i3o.8001979070750286289" type="CONCEPT" from="TaskFree" to="TaskClear" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="29" />
+    </dependencies>
+    <rename id="6i3o.6553204290894227497" type="CHILD" from="ressources" to="resources" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="30" />
+    </dependencies>
+    <rename id="6i3o.6553204290893807643" type="CONCEPT" from="SyncRessource" to="SyncResource" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="31" />
+    </dependencies>
+    <rename id="6i3o.6288388922742659454" type="CONCEPT" from="SyncRessourceNamed" to="SyncResourceNamed" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="32" />
+    </dependencies>
+    <rename id="6i3o.6288388922743435028" type="CONCEPT" from="SyncRessourceRef" to="SyncResourceRef" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6i3o" modelUID="r:af54e311-659f-4265-b558-862058cfed70(TasksAndSyncs.structure)" version="33" />
+    </dependencies>
+    <rename id="6i3o.6288388922743435132" type="REFERENCE" from="syncRessource" to="syncResource" />
+  </StructureModification>
+</history>
+

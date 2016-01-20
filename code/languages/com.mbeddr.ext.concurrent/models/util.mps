@@ -63,6 +63,7 @@
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
       <concept id="747084250476811597" name="com.mbeddr.core.base.structure.DefaultGenericChunkDependency" flags="ng" index="3GEVxB">
+        <property id="747084250476874891" name="reexport" index="3GEa6x" />
         <reference id="747084250476878887" name="chunk" index="3GEb4d" />
       </concept>
     </language>
@@ -146,7 +147,7 @@
       <property role="TrG5h" value="Task" />
       <property role="2OOxQR" value="true" />
       <node concept="1dpRTG" id="5zpc63Iw$NI" role="HszBJ">
-        <property role="TrG5h" value="args" />
+        <property role="TrG5h" value="environment" />
         <node concept="3wxxNl" id="5zpc63Iw$NS" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -180,7 +181,7 @@
         </node>
       </node>
       <node concept="1dpRTG" id="5zpc63Iw$TG" role="HszBJ">
-        <property role="TrG5h" value="argsSize" />
+        <property role="TrG5h" value="environmentSize" />
         <node concept="2O5j3L" id="5zpc63Iw$TE" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -268,7 +269,7 @@
             </node>
             <node concept="2qmXGp" id="1xijt7qOojf" role="3TlMhI">
               <node concept="1E4Tgc" id="1xijt7qOojP" role="1ESnxz">
-                <ref role="1E4Tge" node="5zpc63Iw$TG" resolve="argsSize" />
+                <ref role="1E4Tge" node="5zpc63Iw$TG" resolve="environmentSize" />
               </node>
               <node concept="3ZUYvv" id="1xijt7qOoiV" role="1_9fRO">
                 <ref role="3ZUYvu" node="1xijt7qOo1u" resolve="task" />
@@ -278,7 +279,7 @@
           <node concept="1ly_i6" id="1xijt7qOqk6" role="ggAap">
             <node concept="3XIRFW" id="1xijt7qOqk7" role="1ly_ph">
               <node concept="3XIRlf" id="1xijt7qOt6R" role="3XIRFZ">
-                <property role="TrG5h" value="args" />
+                <property role="TrG5h" value="environmentCopy" />
                 <node concept="3wxxNl" id="1xijt7qOt8A" role="2C2TGm">
                   <property role="2caQfQ" value="false" />
                   <property role="2c7vTL" value="false" />
@@ -289,7 +290,7 @@
                 </node>
                 <node concept="2qmXGp" id="57S_UBgOvgO" role="3XIe9u">
                   <node concept="1E4Tgc" id="57S_UBgOvFe" role="1ESnxz">
-                    <ref role="1E4Tge" node="5zpc63Iw$NI" resolve="args" />
+                    <ref role="1E4Tge" node="5zpc63Iw$NI" resolve="environment" />
                   </node>
                   <node concept="3ZUYvv" id="57S_UBgOuTz" role="1_9fRO">
                     <ref role="3ZUYvu" node="1xijt7qOo1u" resolve="task" />
@@ -301,13 +302,13 @@
                   <node concept="1_9egQ" id="57S_UBgOw7U" role="3XIRFZ">
                     <node concept="3pqW6w" id="57S_UBgOwbw" role="1_9egR">
                       <node concept="3ZVu4v" id="57S_UBgOw7S" role="3TlMhI">
-                        <ref role="3ZVs_2" node="1xijt7qOt6R" resolve="args" />
+                        <ref role="3ZVs_2" node="1xijt7qOt6R" resolve="environmentCopy" />
                       </node>
                       <node concept="3O_q_g" id="57S_UBgOw_O" role="3TlMhJ">
                         <ref role="3O_q_h" to="3y0n:1fAuj8Twc5j" resolve="malloc" />
                         <node concept="2qmXGp" id="57S_UBgOw_P" role="3O_q_j">
                           <node concept="1E4Tgc" id="57S_UBgOw_Q" role="1ESnxz">
-                            <ref role="1E4Tge" node="5zpc63Iw$TG" resolve="argsSize" />
+                            <ref role="1E4Tge" node="5zpc63Iw$TG" resolve="environmentSize" />
                           </node>
                           <node concept="3ZUYvv" id="57S_UBgOw_R" role="1_9fRO">
                             <ref role="3ZUYvu" node="1xijt7qOo1u" resolve="task" />
@@ -320,11 +321,11 @@
                     <node concept="3O_q_g" id="1xijt7qOw8a" role="1_9egR">
                       <ref role="3O_q_h" to="3y0n:6Iiej_UhPTC" resolve="memcpy" />
                       <node concept="3ZVu4v" id="1xijt7qOwle" role="3O_q_j">
-                        <ref role="3ZVs_2" node="1xijt7qOt6R" resolve="args" />
+                        <ref role="3ZVs_2" node="1xijt7qOt6R" resolve="environmentCopy" />
                       </node>
                       <node concept="2qmXGp" id="1xijt7qOwoP" role="3O_q_j">
                         <node concept="1E4Tgc" id="1xijt7qOwI5" role="1ESnxz">
-                          <ref role="1E4Tge" node="5zpc63Iw$NI" resolve="args" />
+                          <ref role="1E4Tge" node="5zpc63Iw$NI" resolve="environment" />
                         </node>
                         <node concept="3ZUYvv" id="1xijt7qOwol" role="1_9fRO">
                           <ref role="3ZUYvu" node="1xijt7qOo1u" resolve="task" />
@@ -332,7 +333,7 @@
                       </node>
                       <node concept="2qmXGp" id="1xijt7qOx9D" role="3O_q_j">
                         <node concept="1E4Tgc" id="1xijt7qOxyy" role="1ESnxz">
-                          <ref role="1E4Tge" node="5zpc63Iw$TG" resolve="argsSize" />
+                          <ref role="1E4Tge" node="5zpc63Iw$TG" resolve="environmentSize" />
                         </node>
                         <node concept="3ZUYvv" id="1xijt7qOwNl" role="1_9fRO">
                           <ref role="3ZUYvu" node="1xijt7qOo1u" resolve="task" />
@@ -365,7 +366,7 @@
                     </node>
                   </node>
                   <node concept="3ZVu4v" id="1xijt7qOyCd" role="3O_q_j">
-                    <ref role="3ZVs_2" node="1xijt7qOt6R" resolve="args" />
+                    <ref role="3ZVs_2" node="1xijt7qOt6R" resolve="environmentCopy" />
                   </node>
                 </node>
               </node>
@@ -633,10 +634,14 @@
         </node>
       </node>
     </node>
+    <node concept="2NXPZ9" id="hFtW$4FviK" role="N3F5h">
+      <property role="TrG5h" value="empty_1452420733869_1" />
+    </node>
     <node concept="3GEVxB" id="1xijt7qOtIs" role="2OODSX">
       <ref role="3GEb4d" to="3y0n:1WTn9U1b1j1" resolve="stdlib" />
     </node>
     <node concept="3GEVxB" id="1xijt7qOo27" role="2OODSX">
+      <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" to="b609:41BTkV3WhIs" resolve="pthread" />
     </node>
     <node concept="3GEVxB" id="1xijt7qOvKe" role="2OODSX">
