@@ -70,6 +70,9 @@
       <concept id="6394819151180597816" name="com.mbeddr.core.udt.structure.StructType" flags="ng" index="1sgJKr">
         <reference id="6394819151180597817" name="struct" index="1sgJKq" />
       </concept>
+      <concept id="7034214596253391076" name="com.mbeddr.core.udt.structure.GenericMemberRef" flags="ng" index="1E4Tgc">
+        <reference id="7034214596253391078" name="member" index="1E4Tge" />
+      </concept>
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
       <concept id="4459718605982007337" name="com.mbeddr.core.base.structure.IConfigurationContainer" flags="ng" index="2Q9xDo">
@@ -247,7 +250,25 @@
             </node>
           </node>
         </node>
-        <node concept="3XISUE" id="3XUoACOPzfu" role="3XIRFZ" />
+        <node concept="3XISUE" id="42P87Hj0x5e" role="3XIRFZ" />
+        <node concept="3XIRlf" id="42P87Hj0x8D" role="3XIRFZ">
+          <property role="TrG5h" value="t" />
+          <node concept="1sgJKr" id="42P87Hj0x8C" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+            <ref role="1sgJKq" node="2PAg_afzbJj" resolve="A" />
+          </node>
+        </node>
+        <node concept="1_9egQ" id="42P87Hj0xmn" role="3XIRFZ">
+          <node concept="2qmXGp" id="42P87Hj0xmu" role="1_9egR">
+            <node concept="1E4Tgc" id="42P87Hj0xoI" role="1ESnxz">
+              <ref role="1E4Tge" node="2PAg_afzbJk" resolve="b" />
+            </node>
+            <node concept="3ZVu4v" id="42P87Hj0xml" role="1_9fRO">
+              <ref role="3ZVs_2" node="42P87Hj0x8D" resolve="t" />
+            </node>
+          </node>
+        </node>
         <node concept="3XIRlf" id="hFtW$4HmpI" role="3XIRFZ">
           <property role="TrG5h" value="v3" />
           <node concept="3Xznq7" id="hFtW$4HmpF" role="2C2TGm">
