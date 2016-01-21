@@ -2138,7 +2138,7 @@
               <property role="Xl_RC" value="named resource may not be used as an lvalue" />
             </node>
             <node concept="1YBJjd" id="4XB0BIeAiO5" role="2OEOjV">
-              <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="syncResourceRef" />
+              <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
             </node>
           </node>
         </node>
@@ -2146,14 +2146,14 @@
           <node concept="1Wc70l" id="4XB0BIeAeFF" role="3uHU7w">
             <node concept="3clFbC" id="4XB0BIeAhV8" role="3uHU7w">
               <node concept="1YBJjd" id="4XB0BIeAi8d" role="3uHU7w">
-                <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="syncResourceRef" />
+                <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
               </node>
               <node concept="2OqwBi" id="4XB0BIeAguM" role="3uHU7B">
                 <node concept="1PxgMI" id="4XB0BIeAg2G" role="2Oq$k0">
                   <ref role="1PxNhF" to="mj1l:1exqRp9kgd" resolve="AssignmentExpr" />
                   <node concept="2OqwBi" id="4XB0BIeAf30" role="1PxMeX">
                     <node concept="1YBJjd" id="4XB0BIeAeOm" role="2Oq$k0">
-                      <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="syncResourceRef" />
+                      <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
                     </node>
                     <node concept="1mfA1w" id="4XB0BIeAfwI" role="2OqNvi" />
                   </node>
@@ -2166,7 +2166,7 @@
             <node concept="2OqwBi" id="4XB0BIeAe9M" role="3uHU7B">
               <node concept="2OqwBi" id="4XB0BIeAdgS" role="2Oq$k0">
                 <node concept="1YBJjd" id="4XB0BIeAd7k" role="2Oq$k0">
-                  <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="syncResourceRef" />
+                  <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
                 </node>
                 <node concept="1mfA1w" id="4XB0BIeAdEA" role="2OqNvi" />
               </node>
@@ -2180,7 +2180,7 @@
           <node concept="2OqwBi" id="4XB0BIeAcy4" role="3uHU7B">
             <node concept="2OqwBi" id="4XB0BIeAbJu" role="2Oq$k0">
               <node concept="1YBJjd" id="4XB0BIeAbD2" role="2Oq$k0">
-                <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="syncResourceRef" />
+                <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
               </node>
               <node concept="1mfA1w" id="4XB0BIeAc8q" role="2OqNvi" />
             </node>
@@ -2194,7 +2194,7 @@
       </node>
     </node>
     <node concept="1YaCAy" id="4XB0BIeqq9Y" role="1YuTPh">
-      <property role="TrG5h" value="syncResourceRef" />
+      <property role="TrG5h" value="reference" />
       <ref role="1YaFvo" to="vpss:5t4Q6xHBUWk" resolve="SyncResourceReference" />
     </node>
   </node>
@@ -4312,6 +4312,96 @@
     <node concept="1YaCAy" id="2ontRW5mr9g" role="1YuTPh">
       <property role="TrG5h" value="target" />
       <ref role="1YaFvo" to="vpss:2ontRW5mjfd" resolve="FutureResult" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3XUoACOPmKK">
+    <property role="3GE5qa" value="shared" />
+    <property role="TrG5h" value="check_IAssignmentLike" />
+    <node concept="3clFbS" id="3XUoACOPmKL" role="18ibNy">
+      <node concept="3clFbJ" id="3XUoACOPmL7" role="3cqZAp">
+        <node concept="3clFbS" id="3XUoACOPmL9" role="3clFbx">
+          <node concept="2MkqsV" id="3XUoACOPnm2" role="3cqZAp">
+            <node concept="Xl_RD" id="3XUoACOPnmk" role="2MkJ7o">
+              <property role="Xl_RC" value="A variable with shared type must not be assigned directly!" />
+            </node>
+            <node concept="1YBJjd" id="3XUoACOPnog" role="2OEOjV">
+              <ref role="1YBMHb" node="3XUoACOPmKN" resolve="assignment" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="3XUoACOPnef" role="3clFbw">
+          <node concept="2OqwBi" id="3XUoACOPmSP" role="2Oq$k0">
+            <node concept="2OqwBi" id="3XUoACOPmMQ" role="2Oq$k0">
+              <node concept="1YBJjd" id="3XUoACOPmLq" role="2Oq$k0">
+                <ref role="1YBMHb" node="3XUoACOPmKN" resolve="assignment" />
+              </node>
+              <node concept="2qgKlT" id="3XUoACOPmPu" role="2OqNvi">
+                <ref role="37wK5l" to="ywuz:7QxE2Vg8Hif" resolve="getLValue" />
+              </node>
+            </node>
+            <node concept="3JvlWi" id="3XUoACOPn6I" role="2OqNvi" />
+          </node>
+          <node concept="1mIQ4w" id="3XUoACOPniP" role="2OqNvi">
+            <node concept="chp4Y" id="3XUoACOPnkc" role="cj9EA">
+              <ref role="cht4Q" to="vpss:1EPybFBefSX" resolve="SharedType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3XUoACOPmKN" role="1YuTPh">
+      <property role="TrG5h" value="assignment" />
+      <ref role="1YaFvo" to="mj1l:iknc85$OO0" resolve="IAssignmentLike" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3XUoACOPnoz">
+    <property role="3GE5qa" value="shared" />
+    <property role="TrG5h" value="check_IVariableDeclaration" />
+    <node concept="3clFbS" id="3XUoACOPno$" role="18ibNy">
+      <node concept="3clFbJ" id="3XUoACOPnoN" role="3cqZAp">
+        <node concept="3clFbS" id="3XUoACOPnoO" role="3clFbx">
+          <node concept="2MkqsV" id="3XUoACOPnY6" role="3cqZAp">
+            <node concept="Xl_RD" id="3XUoACOPnY7" role="2MkJ7o">
+              <property role="Xl_RC" value="A variable with shared type must not be initialized directly!" />
+            </node>
+            <node concept="1YBJjd" id="3XUoACOPo3D" role="2OEOjV">
+              <ref role="1YBMHb" node="3XUoACOPnoA" resolve="declaration" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="3XUoACOPnER" role="3clFbw">
+          <node concept="3y3z36" id="3XUoACOPnUv" role="3uHU7w">
+            <node concept="10Nm6u" id="3XUoACOPnVN" role="3uHU7w" />
+            <node concept="2OqwBi" id="3XUoACOPnKV" role="3uHU7B">
+              <node concept="1YBJjd" id="3XUoACOPnHi" role="2Oq$k0">
+                <ref role="1YBMHb" node="3XUoACOPnoA" resolve="declaration" />
+              </node>
+              <node concept="2qgKlT" id="3XUoACOPnQk" role="2OqNvi">
+                <ref role="37wK5l" to="ywuz:1LDGRqyYkU1" resolve="getInitExpression" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3XUoACOPnw1" role="3uHU7B">
+            <node concept="2OqwBi" id="3XUoACOPnqU" role="2Oq$k0">
+              <node concept="1YBJjd" id="3XUoACOPnp2" role="2Oq$k0">
+                <ref role="1YBMHb" node="3XUoACOPnoA" resolve="declaration" />
+              </node>
+              <node concept="2qgKlT" id="3XUoACOPnuw" role="2OqNvi">
+                <ref role="37wK5l" to="ywuz:1LDGRqyYkTX" resolve="getDeclaredType" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="3XUoACOPn_R" role="2OqNvi">
+              <node concept="chp4Y" id="3XUoACOPnBp" role="cj9EA">
+                <ref role="cht4Q" to="vpss:1EPybFBefSX" resolve="SharedType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3XUoACOPnoA" role="1YuTPh">
+      <property role="TrG5h" value="declaration" />
+      <ref role="1YaFvo" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
     </node>
   </node>
 </model>

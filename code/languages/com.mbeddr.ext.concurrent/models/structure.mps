@@ -163,7 +163,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5FLE9kbiC0r">
-    <property role="TrG5h" value="SyncResource" />
+    <property role="TrG5h" value="SyncResourceExpression" />
     <property role="1pbfSe" value="1715218608" />
     <property role="3GE5qa" value="sync" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -190,15 +190,16 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5t4Q6xHBUWk">
-    <property role="TrG5h" value="SyncResourceReference" />
+    <property role="TrG5h" value="NamedSyncResourceReference" />
     <property role="1pbfSe" value="991656068" />
     <property role="3GE5qa" value="sync" />
+    <property role="R4oN_" value="synchronization resource reference" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="5t4Q6xHBUXW" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="resource" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5TPjGA98QQa" resolve="ISyncResource" />
+      <ref role="20lvS9" node="5t4Q6xH$X_Y" resolve="NamedSyncResource" />
     </node>
     <node concept="PrWs8" id="5t4Q6xHBUX7" role="PzmwI">
       <ref role="PrY4T" to="vs0r:70kXLV4LLzw" resolve="IReference" />

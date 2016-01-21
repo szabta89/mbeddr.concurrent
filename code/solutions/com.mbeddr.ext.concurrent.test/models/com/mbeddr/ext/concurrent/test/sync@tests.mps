@@ -10,7 +10,6 @@
     <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="2" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="0" />
-    <use id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt" version="1" />
   </languages>
   <imports>
     <import index="z5os" ref="r:24cbf50c-03f7-4cfd-9581-0edb59e26fa6(mbeddr.concurrent.__spreferences.PlatformTemplates)" />
@@ -95,7 +94,7 @@
         <child id="6553204290894227497" name="resources" index="1hCk2W" />
         <child id="6553204290894227498" name="body" index="1hCk2Z" />
       </concept>
-      <concept id="6553204290893807643" name="com.mbeddr.ext.concurrent.structure.SyncResource" flags="ng" index="1hIMye" />
+      <concept id="6553204290893807643" name="com.mbeddr.ext.concurrent.structure.SyncResourceExpression" flags="ng" index="1hIMye" />
       <concept id="6806433039336566154" name="com.mbeddr.ext.concurrent.structure.ISyncResource" flags="ng" index="3nlyd3">
         <child id="6806433039336566213" name="expression" index="3nlycc" />
       </concept>
@@ -132,9 +131,15 @@
   </registry>
   <node concept="2v9HqL" id="1xijt7qMDTD">
     <node concept="2eOfOl" id="1xijt7qMDTK" role="2ePNbc">
-      <property role="TrG5h" value="Tasks" />
+      <property role="TrG5h" value="Sync" />
       <node concept="2v9HqM" id="hFtW$4HqdZ" role="2eOfOg">
         <ref role="2v9HqP" node="2PAg_afzbJi" resolve="Sync" />
+      </node>
+      <node concept="2v9HqM" id="3gSeaP2mU$7" role="2eOfOg">
+        <ref role="2v9HqP" to="3y0n:137zkozycPF" resolve="stdarg" />
+      </node>
+      <node concept="2v9HqM" id="3gSeaP2mU$8" role="2eOfOg">
+        <ref role="2v9HqP" to="3y0n:1WTn9U1aQF1" resolve="stdio" />
       </node>
     </node>
     <node concept="2xfidK" id="1xijt7qMDTE" role="2AWWZH">
@@ -194,7 +199,7 @@
                 </node>
               </node>
               <node concept="UPK4m" id="4D18eT6Yc3W" role="1hCk2W">
-                <property role="TrG5h" value="g2n" />
+                <property role="TrG5h" value="g" />
                 <node concept="3wxyx2" id="4D18eT6Yc3X" role="3nlycc">
                   <node concept="1S7827" id="4D18eT6Yc3Y" role="1_9fRO">
                     <ref role="1S7826" node="4D18eT6Y7Sr" resolve="g2" />
