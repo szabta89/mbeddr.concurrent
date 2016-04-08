@@ -2072,7 +2072,7 @@
         <node concept="3cpWsn" id="3fm78ONh5Sd" role="3cpWs9">
           <property role="TrG5h" value="resourceRefContext" />
           <node concept="3Tqbb2" id="3fm78ONh5Se" role="1tU5fm">
-            <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+            <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
           </node>
           <node concept="2OqwBi" id="3fm78ONh7l6" role="33vP2m">
             <node concept="1YBJjd" id="3fm78ONh7ez" role="2Oq$k0">
@@ -2081,7 +2081,7 @@
             <node concept="2Xjw5R" id="3fm78ONheBl" role="2OqNvi">
               <node concept="1xMEDy" id="3fm78ONheBn" role="1xVPHs">
                 <node concept="chp4Y" id="6q_trIJ3jqS" role="ri$Ld">
-                  <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                  <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                 </node>
               </node>
             </node>
@@ -2124,78 +2124,7 @@
     </node>
     <node concept="1YaCAy" id="3fm78ONd5KX" role="1YuTPh">
       <property role="TrG5h" value="syncResourceRef" />
-      <ref role="1YaFvo" to="vpss:5t4Q6xHBUWk" resolve="SyncResourceReference" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="4XB0BIeqq9H">
-    <property role="TrG5h" value="checkNamedResourceRefForLValue" />
-    <property role="3GE5qa" value="sync" />
-    <node concept="3clFbS" id="4XB0BIeqq9I" role="18ibNy">
-      <node concept="3clFbJ" id="4XB0BIeAbiQ" role="3cqZAp">
-        <node concept="3clFbS" id="4XB0BIeAbiT" role="3clFbx">
-          <node concept="2MkqsV" id="4XB0BIeAcPp" role="3cqZAp">
-            <node concept="Xl_RD" id="4XB0BIeAcPF" role="2MkJ7o">
-              <property role="Xl_RC" value="named resource may not be used as an lvalue" />
-            </node>
-            <node concept="1YBJjd" id="4XB0BIeAiO5" role="2OEOjV">
-              <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
-            </node>
-          </node>
-        </node>
-        <node concept="22lmx$" id="4XB0BIeAd1l" role="3clFbw">
-          <node concept="1Wc70l" id="4XB0BIeAeFF" role="3uHU7w">
-            <node concept="3clFbC" id="4XB0BIeAhV8" role="3uHU7w">
-              <node concept="1YBJjd" id="4XB0BIeAi8d" role="3uHU7w">
-                <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
-              </node>
-              <node concept="2OqwBi" id="4XB0BIeAguM" role="3uHU7B">
-                <node concept="1PxgMI" id="4XB0BIeAg2G" role="2Oq$k0">
-                  <ref role="1PxNhF" to="mj1l:1exqRp9kgd" resolve="AssignmentExpr" />
-                  <node concept="2OqwBi" id="4XB0BIeAf30" role="1PxMeX">
-                    <node concept="1YBJjd" id="4XB0BIeAeOm" role="2Oq$k0">
-                      <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
-                    </node>
-                    <node concept="1mfA1w" id="4XB0BIeAfwI" role="2OqNvi" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="4XB0BIeAh8I" role="2OqNvi">
-                  <ref role="3Tt5mk" to="mj1l:7FQByU3CrD0" />
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="4XB0BIeAe9M" role="3uHU7B">
-              <node concept="2OqwBi" id="4XB0BIeAdgS" role="2Oq$k0">
-                <node concept="1YBJjd" id="4XB0BIeAd7k" role="2Oq$k0">
-                  <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
-                </node>
-                <node concept="1mfA1w" id="4XB0BIeAdEA" role="2OqNvi" />
-              </node>
-              <node concept="1mIQ4w" id="4XB0BIeAemb" role="2OqNvi">
-                <node concept="chp4Y" id="4XB0BIeAess" role="cj9EA">
-                  <ref role="cht4Q" to="mj1l:1exqRp9kgd" resolve="AssignmentExpr" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="4XB0BIeAcy4" role="3uHU7B">
-            <node concept="2OqwBi" id="4XB0BIeAbJu" role="2Oq$k0">
-              <node concept="1YBJjd" id="4XB0BIeAbD2" role="2Oq$k0">
-                <ref role="1YBMHb" node="4XB0BIeqq9Y" resolve="reference" />
-              </node>
-              <node concept="1mfA1w" id="4XB0BIeAc8q" role="2OqNvi" />
-            </node>
-            <node concept="1mIQ4w" id="4XB0BIeAcM4" role="2OqNvi">
-              <node concept="chp4Y" id="4XB0BIeAcN5" role="cj9EA">
-                <ref role="cht4Q" to="yq40:1o_zCoCBfqX" resolve="ReferenceExpr" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4XB0BIeqq9Y" role="1YuTPh">
-      <property role="TrG5h" value="reference" />
-      <ref role="1YaFvo" to="vpss:5t4Q6xHBUWk" resolve="SyncResourceReference" />
+      <ref role="1YaFvo" to="vpss:5t4Q6xHBUWk" resolve="NamedSyncResourceReference" />
     </node>
   </node>
   <node concept="18kY7G" id="5FLE9kbgWRu">
@@ -2276,7 +2205,7 @@
                     </node>
                     <node concept="1mIQ4w" id="4XB0BIgEMOV" role="2OqNvi">
                       <node concept="chp4Y" id="6q_trIJ4xFf" role="cj9EA">
-                        <ref role="cht4Q" to="vpss:5t4Q6xHBUWk" resolve="SyncResourceReference" />
+                        <ref role="cht4Q" to="vpss:5t4Q6xHBUWk" resolve="NamedSyncResourceReference" />
                       </node>
                     </node>
                   </node>
@@ -2344,7 +2273,7 @@
                       <node concept="2OqwBi" id="3KG8Xm3BZmc" role="2Oq$k0">
                         <node concept="2OqwBi" id="3KG8Xm3BYdj" role="2Oq$k0">
                           <node concept="1PxgMI" id="3KG8Xm3BXVs" role="2Oq$k0">
-                            <ref role="1PxNhF" to="vpss:5t4Q6xHBUWk" resolve="SyncResourceReference" />
+                            <ref role="1PxNhF" to="vpss:5t4Q6xHBUWk" resolve="NamedSyncResourceReference" />
                             <node concept="37vLTw" id="3KG8Xm3BXMY" role="1PxMeX">
                               <ref role="3cqZAo" node="O1s6WYsHtt" resolve="sharedExpr" />
                             </node>
@@ -2371,7 +2300,7 @@
               </node>
               <node concept="1mIQ4w" id="O1s6WYt7a7" role="2OqNvi">
                 <node concept="chp4Y" id="6q_trIJ4xFd" role="cj9EA">
-                  <ref role="cht4Q" to="vpss:5t4Q6xHBUWk" resolve="SyncResourceReference" />
+                  <ref role="cht4Q" to="vpss:5t4Q6xHBUWk" resolve="NamedSyncResourceReference" />
                 </node>
               </node>
             </node>
@@ -2381,7 +2310,7 @@
                   <node concept="3cpWsn" id="3KG8Xm3Cna4" role="3cpWs9">
                     <property role="TrG5h" value="matchedSyncResource" />
                     <node concept="3Tqbb2" id="3KG8Xm3Cn9Z" role="1tU5fm">
-                      <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                      <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                     </node>
                     <node concept="10Nm6u" id="3KG8Xm3CH8O" role="33vP2m" />
                   </node>
@@ -4061,7 +3990,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="5t4Q6xHCdql">
-    <property role="TrG5h" value="typeof_SyncResourceRef" />
+    <property role="TrG5h" value="typeof_NamedSyncResourceReference" />
     <property role="3GE5qa" value="sync" />
     <node concept="3clFbS" id="5t4Q6xHCdqm" role="18ibNy">
       <node concept="1Z5TYs" id="5t4Q6xHCemV" role="3cqZAp">
@@ -4069,7 +3998,7 @@
           <node concept="1Z2H0r" id="5t4Q6xHCene" role="mwGJk">
             <node concept="2OqwBi" id="5t4Q6xHCet7" role="1Z2MuG">
               <node concept="1YBJjd" id="5t4Q6xHCenJ" role="2Oq$k0">
-                <ref role="1YBMHb" node="5t4Q6xHCdqo" resolve="syncResourceRef" />
+                <ref role="1YBMHb" node="5t4Q6xHCdqo" resolve="resource" />
               </node>
               <node concept="3TrEf2" id="6q_trIJ8S_m" role="2OqNvi">
                 <ref role="3Tt5mk" to="vpss:5t4Q6xHBUXW" />
@@ -4080,15 +4009,15 @@
         <node concept="mw_s8" id="5t4Q6xHCemY" role="1ZfhK$">
           <node concept="1Z2H0r" id="5t4Q6xHCekL" role="mwGJk">
             <node concept="1YBJjd" id="5t4Q6xHCela" role="1Z2MuG">
-              <ref role="1YBMHb" node="5t4Q6xHCdqo" resolve="syncResourceRef" />
+              <ref role="1YBMHb" node="5t4Q6xHCdqo" resolve="resource" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="1YaCAy" id="5t4Q6xHCdqo" role="1YuTPh">
-      <property role="TrG5h" value="syncResourceRef" />
-      <ref role="1YaFvo" to="vpss:5t4Q6xHBUWk" resolve="SyncResourceReference" />
+      <property role="TrG5h" value="resource" />
+      <ref role="1YaFvo" to="vpss:5t4Q6xHBUWk" resolve="NamedSyncResourceReference" />
     </node>
   </node>
   <node concept="1YbPZF" id="18pvTIfxWmJ">
@@ -4402,6 +4331,37 @@
     <node concept="1YaCAy" id="3XUoACOPnoA" role="1YuTPh">
       <property role="TrG5h" value="declaration" />
       <ref role="1YaFvo" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="_YZvIEnKRb">
+    <property role="TrG5h" value="typeof_NamedSyncResource" />
+    <property role="3GE5qa" value="sync" />
+    <node concept="3clFbS" id="_YZvIEnKRc" role="18ibNy">
+      <node concept="1Z5TYs" id="_YZvIEnKUp" role="3cqZAp">
+        <node concept="mw_s8" id="_YZvIEnKV0" role="1ZfhKB">
+          <node concept="1Z2H0r" id="_YZvIEnKUW" role="mwGJk">
+            <node concept="2OqwBi" id="_YZvIEnKY$" role="1Z2MuG">
+              <node concept="1YBJjd" id="_YZvIEnKVn" role="2Oq$k0">
+                <ref role="1YBMHb" node="_YZvIEnKRe" resolve="resource" />
+              </node>
+              <node concept="3TrEf2" id="_YZvIEnL62" role="2OqNvi">
+                <ref role="3Tt5mk" to="vpss:5TPjGA98QR5" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="_YZvIEnKUs" role="1ZfhK$">
+          <node concept="1Z2H0r" id="_YZvIEnKRD" role="mwGJk">
+            <node concept="1YBJjd" id="_YZvIEnKSg" role="1Z2MuG">
+              <ref role="1YBMHb" node="_YZvIEnKRe" resolve="resource" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="_YZvIEnKRe" role="1YuTPh">
+      <property role="TrG5h" value="resource" />
+      <ref role="1YaFvo" to="vpss:5t4Q6xH$X_Y" resolve="NamedSyncResource" />
     </node>
   </node>
 </model>

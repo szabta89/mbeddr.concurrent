@@ -69,6 +69,7 @@
       <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
         <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
         <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
+        <property id="1691534949151697076" name="linkerOptions" index="3I8uaA" />
       </concept>
       <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
         <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
@@ -1144,18 +1145,20 @@
                   </node>
                 </node>
                 <node concept="19$8ne" id="3UFVoWbc6Rf" role="3TlMhI">
-                  <node concept="3O_q_g" id="3Q8gcyyENX8" role="1_9fRO">
-                    <ref role="3O_q_h" node="3Q8gcyyEmYr" resolve="biggerThan" />
-                    <node concept="2wJmCr" id="3Q8gcyyF2Kb" role="3O_q_j">
-                      <node concept="3ZUYvv" id="3Q8gcyyF2Jz" role="1_9fRO">
-                        <ref role="3ZUYvu" node="3Q8gcyyDY1n" resolve="items" />
+                  <node concept="2BPB98" id="10iIr$Z8_1E" role="1_9fRO">
+                    <node concept="3O_q_g" id="10iIr$Z8_1_" role="1_9fRO">
+                      <ref role="3O_q_h" node="3Q8gcyyEmYr" resolve="biggerThan" />
+                      <node concept="2wJmCr" id="10iIr$Z8_1A" role="3O_q_j">
+                        <node concept="3ZUYvv" id="10iIr$Z8_1B" role="1_9fRO">
+                          <ref role="3ZUYvu" node="3Q8gcyyDY1n" resolve="items" />
+                        </node>
+                        <node concept="3ZVu4v" id="10iIr$Z8_1C" role="2wJmCp">
+                          <ref role="3ZVs_2" node="3Q8gcyyE80f" resolve="i" />
+                        </node>
                       </node>
-                      <node concept="3ZVu4v" id="3Q8gcyyF3$z" role="2wJmCp">
-                        <ref role="3ZVs_2" node="3Q8gcyyE80f" resolve="i" />
+                      <node concept="3ZVu4v" id="10iIr$Z8_1D" role="3O_q_j">
+                        <ref role="3ZVs_2" node="3Q8gcyyE3pw" resolve="pivot" />
                       </node>
-                    </node>
-                    <node concept="3ZVu4v" id="3UFVoWb7dRO" role="3O_q_j">
-                      <ref role="3ZVs_2" node="3Q8gcyyE3pw" resolve="pivot" />
                     </node>
                   </node>
                 </node>
@@ -1515,6 +1518,7 @@
       <property role="2AWWZJ" value="gcc" />
       <property role="2AWWZI" value="-std=c99" />
       <property role="1FkSt$" value="-g" />
+      <property role="3I8uaA" value="" />
     </node>
     <node concept="2Q9Fgs" id="3UFVoWbMpXe" role="2Q9xDr">
       <node concept="2Q9FjX" id="3UFVoWbMpXf" role="2Q9FjI" />

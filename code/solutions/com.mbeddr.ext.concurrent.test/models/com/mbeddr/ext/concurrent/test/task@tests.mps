@@ -6,9 +6,9 @@
     <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="0" />
     <use id="ca449ea0-e04a-4732-b906-a25af18113ba" name="com.mbeddr.ext.concurrent" version="0" />
     <use id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt" version="1" />
-    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="0" />
+    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="1" />
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
-    <use id="06d68b77-b699-4918-83b8-857e63787800" name="com.mbeddr.core.unittest" version="1" />
+    <use id="06d68b77-b699-4918-83b8-857e63787800" name="com.mbeddr.core.unittest" version="3" />
   </languages>
   <imports>
     <import index="z5os" ref="r:24cbf50c-03f7-4cfd-9581-0edb59e26fa6(mbeddr.concurrent.__spreferences.PlatformTemplates)" />
@@ -119,11 +119,16 @@
         <child id="6275792049641586525" name="body" index="c0Qz3" />
       </concept>
       <concept id="7955188678846741606" name="com.mbeddr.core.unittest.structure.TestCollection" flags="ng" index="lIfQi">
+        <property id="8499024683960415454" name="entrypoint" index="3HjyOP" />
         <child id="7955188678846741609" name="tests" index="lIfQt" />
+      </concept>
+      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
+        <child id="842732463503928104" name="testStrategy" index="3GpDut" />
       </concept>
       <concept id="5686538669182340985" name="com.mbeddr.core.unittest.structure.TestCaseRef" flags="ng" index="3cM6IN">
         <reference id="5686538669182340986" name="testcase" index="3cM6IK" />
       </concept>
+      <concept id="842732463503928109" name="com.mbeddr.core.unittest.structure.TestIsolationStrategy" flags="ng" index="3GpDuo" />
     </language>
     <language id="ca449ea0-e04a-4732-b906-a25af18113ba" name="com.mbeddr.ext.concurrent">
       <concept id="1304213873204721600" name="com.mbeddr.ext.concurrent.structure.Task" flags="ng" index="2tAoxr">
@@ -185,6 +190,7 @@
     <property role="TrG5h" value="Tasks" />
     <node concept="lIfQi" id="57S_UBgMtej" role="N3F5h">
       <property role="TrG5h" value="main" />
+      <property role="3HjyOP" value="true" />
       <node concept="3cM6IN" id="57S_UBgPeVZ" role="lIfQt">
         <ref role="3cM6IK" node="57S_UBgMA85" resolve="voidTask1" />
       </node>
@@ -852,6 +858,9 @@
     </node>
     <node concept="2Q9Fgs" id="1xijt7qMFyr" role="2Q9xDr">
       <node concept="2Q9FjX" id="1xijt7qMFys" role="2Q9FjI" />
+    </node>
+    <node concept="12mU2y" id="10iIr$Z8_2h" role="2Q9xDr">
+      <node concept="3GpDuo" id="10iIr$Z8_2i" role="3GpDut" />
     </node>
   </node>
 </model>

@@ -2,7 +2,7 @@
 <model ref="r:3d35faea-1e34-45f7-a371-759073decd0a(com.mbeddr.ext.concurrent.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -274,7 +274,7 @@
   </node>
   <node concept="24kQdi" id="5FLE9kbkdFX">
     <property role="3GE5qa" value="sync" />
-    <ref role="1XX52x" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+    <ref role="1XX52x" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
     <node concept="3EZMnI" id="5FLE9kbkdGM" role="2wV5jI">
       <node concept="VPM3Z" id="3KG8Xm0$wSR" role="3F10Kt">
         <property role="VOm3f" value="true" />
@@ -342,7 +342,7 @@
               <node concept="2ShNRf" id="5TPjGA9lX5p" role="3cqZAk">
                 <node concept="3zrR0B" id="5TPjGA9lX57" role="2ShVmc">
                   <node concept="3Tqbb2" id="5TPjGA9lX58" role="3zrR0E">
-                    <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                    <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                   </node>
                 </node>
               </node>
@@ -467,12 +467,12 @@
             <node concept="3cpWsn" id="5t4Q6xHMfwO" role="3cpWs9">
               <property role="TrG5h" value="resource" />
               <node concept="3Tqbb2" id="5t4Q6xHMfwJ" role="1tU5fm">
-                <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
               </node>
               <node concept="2ShNRf" id="5TPjGA98RyV" role="33vP2m">
                 <node concept="3zrR0B" id="5TPjGA98Rwo" role="2ShVmc">
                   <node concept="3Tqbb2" id="5TPjGA98Rwp" role="3zrR0E">
-                    <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                    <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                   </node>
                 </node>
               </node>

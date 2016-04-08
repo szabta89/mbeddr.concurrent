@@ -47,6 +47,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271546410" name="jetbrains.mps.baseLanguage.structure.TrimOperation" flags="nn" index="17S1cR">
         <property id="1225271546413" name="trimKind" index="17S1cK" />
@@ -65,6 +66,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
@@ -442,7 +446,7 @@
   </node>
   <node concept="13h7C7" id="5t4Q6xHBVm2">
     <property role="3GE5qa" value="sync" />
-    <ref role="13h7C2" to="vpss:5t4Q6xHBUWk" resolve="SyncResourceReference" />
+    <ref role="13h7C2" to="vpss:5t4Q6xHBUWk" resolve="NamedSyncResourceReference" />
     <node concept="13i0hz" id="5t4Q6xHBVm5" role="13h7CS">
       <property role="TrG5h" value="target" />
       <ref role="13i0hy" to="hwgx:70kXLV4LLzy" resolve="target" />
@@ -459,13 +463,28 @@
       <node concept="3Tqbb2" id="5t4Q6xHCbMK" role="3clF45" />
       <node concept="3Tm1VV" id="5t4Q6xHCbML" role="1B3o_S" />
     </node>
+    <node concept="13i0hz" id="_YZvIEnM7h" role="13h7CS">
+      <property role="TrG5h" value="isLValue" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="ywuz:6iIoqg1yDKH" resolve="isLValue" />
+      <node concept="3Tm1VV" id="_YZvIEnM7i" role="1B3o_S" />
+      <node concept="3clFbS" id="_YZvIEnM7T" role="3clF47">
+        <node concept="3cpWs6" id="_YZvIEnMc8" role="3cqZAp">
+          <node concept="3clFbT" id="_YZvIEnMch" role="3cqZAk">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="_YZvIEnM7U" role="3clF45" />
+    </node>
     <node concept="13hLZK" id="5t4Q6xHBVm3" role="13h7CW">
       <node concept="3clFbS" id="5t4Q6xHBVm4" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="1h$7DPcpI8L">
     <property role="3GE5qa" value="sync" />
-    <ref role="13h7C2" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+    <ref role="13h7C2" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
     <node concept="13i0hz" id="4D18eT6Y4pu" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />

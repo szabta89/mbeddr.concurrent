@@ -2,7 +2,7 @@
 <model ref="r:abebf36d-398f-4aa4-b18f-066df2d68be4(quicksort.quicksort_parallel_sync_narrowly)">
   <persistence version="9" />
   <languages>
-    <use id="023e30f7-586d-416b-97aa-7d26dae53e75" name="TasksAndSyncs" version="-1" />
+    <use id="023e30f7-586d-416b-97aa-7d26dae53e75" name="TasksAndSyncs" version="0" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
@@ -102,6 +102,7 @@
       <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
         <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
         <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
+        <property id="1691534949151697076" name="linkerOptions" index="3I8uaA" />
       </concept>
       <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
         <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
@@ -322,6 +323,7 @@
       <property role="2AWWZJ" value="gcc" />
       <property role="2AWWZI" value="-std=c99" />
       <property role="1FkSt$" value="-g" />
+      <property role="3I8uaA" value="" />
     </node>
     <node concept="2Q9Fgs" id="3GwNqpgOuNO" role="2Q9xDr">
       <node concept="2Q9FjX" id="3GwNqpgOuNP" role="2Q9FjI" />
@@ -1408,16 +1410,18 @@
                   </node>
                 </node>
                 <node concept="19$8ne" id="3UFVoWbc6Rf" role="3TlMhI">
-                  <node concept="3O_q_g" id="3Q8gcyyENX8" role="1_9fRO">
-                    <ref role="3O_q_h" node="3Q8gcyyEmYr" resolve="biggerThan" />
-                    <node concept="3ZUYvv" id="1EqBuMzae4B" role="3O_q_j">
-                      <ref role="3ZUYvu" node="1EqBuMz8JzY" resolve="items" />
-                    </node>
-                    <node concept="3ZVu4v" id="4JTQxd3_8Gm" role="3O_q_j">
-                      <ref role="3ZVs_2" node="3Q8gcyyE80f" resolve="i" />
-                    </node>
-                    <node concept="3ZUYvv" id="4JTQxd3_bDZ" role="3O_q_j">
-                      <ref role="3ZUYvu" node="3Q8gcyyDXWp" resolve="left" />
+                  <node concept="2BPB98" id="10iIr$Z8_1U" role="1_9fRO">
+                    <node concept="3O_q_g" id="10iIr$Z8_1Q" role="1_9fRO">
+                      <ref role="3O_q_h" node="3Q8gcyyEmYr" resolve="biggerThan" />
+                      <node concept="3ZUYvv" id="10iIr$Z8_1R" role="3O_q_j">
+                        <ref role="3ZUYvu" node="1EqBuMz8JzY" resolve="items" />
+                      </node>
+                      <node concept="3ZVu4v" id="10iIr$Z8_1S" role="3O_q_j">
+                        <ref role="3ZVs_2" node="3Q8gcyyE80f" resolve="i" />
+                      </node>
+                      <node concept="3ZUYvv" id="10iIr$Z8_1T" role="3O_q_j">
+                        <ref role="3ZUYvu" node="3Q8gcyyDXWp" resolve="left" />
+                      </node>
                     </node>
                   </node>
                 </node>
