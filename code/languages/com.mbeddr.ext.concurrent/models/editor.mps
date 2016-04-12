@@ -560,6 +560,9 @@
             <property role="Vb096" value="gray" />
           </node>
         </node>
+        <node concept="3F0A7n" id="5BTl5ODQCb1" role="3EZMnx">
+          <ref role="1NtTu8" to="vpss:5BTl5ODQouH" resolve="kind" />
+        </node>
         <node concept="l2Vlx" id="3d2YJYTUdjL" role="2iSdaV" />
       </node>
       <node concept="2SsqMj" id="3d2YJYTUdjX" role="3EZMnx" />
