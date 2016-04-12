@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -170,7 +169,7 @@
                         <node concept="2Xjw5R" id="5TPjGA9aiBw" role="2OqNvi">
                           <node concept="1xMEDy" id="5TPjGA9aiBy" role="1xVPHs">
                             <node concept="chp4Y" id="5TPjGA9aiIx" role="ri$Ld">
-                              <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                              <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                             </node>
                           </node>
                           <node concept="1xIGOp" id="5TPjGA9aiP$" role="1xVPHs" />
@@ -199,7 +198,7 @@
                     <node concept="2Xjw5R" id="4D18eT6Ybve" role="2OqNvi">
                       <node concept="1xMEDy" id="4D18eT6Ybvg" role="1xVPHs">
                         <node concept="chp4Y" id="4D18eT6Ybzm" role="ri$Ld">
-                          <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                          <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                         </node>
                       </node>
                       <node concept="1xIGOp" id="4D18eT6YbCn" role="1xVPHs" />
@@ -234,7 +233,7 @@
                 <node concept="2Xjw5R" id="5TPjGA9agtA" role="2OqNvi">
                   <node concept="1xMEDy" id="5TPjGA9agtB" role="1xVPHs">
                     <node concept="chp4Y" id="5TPjGA9agtC" role="ri$Ld">
-                      <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                      <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                     </node>
                   </node>
                   <node concept="1xIGOp" id="5TPjGA9ahml" role="1xVPHs" />
@@ -249,9 +248,9 @@
   <node concept="3FK_9_" id="5TPjGA9md_B">
     <property role="TrG5h" value="SyncResource_Wrapper" />
     <node concept="3FOIzC" id="5TPjGA9md_C" role="3FOPby">
-      <ref role="3FOWKa" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+      <ref role="3FOWKa" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
       <node concept="tYCnQ" id="5TPjGA9md_I" role="tZc4B">
-        <ref role="uz4UX" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+        <ref role="uz4UX" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
         <node concept="yEb5T" id="5TPjGA9md_M" role="uz6Si">
           <ref role="yEYPM" to="mj1l:7FQByU3CrCM" resolve="Expression" />
           <node concept="yEnE0" id="5TPjGA9md_O" role="yEVE$">
@@ -260,12 +259,12 @@
                 <node concept="3cpWsn" id="5TPjGA9mdBO" role="3cpWs9">
                   <property role="TrG5h" value="resource" />
                   <node concept="3Tqbb2" id="5TPjGA9mdBK" role="1tU5fm">
-                    <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                    <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                   </node>
                   <node concept="2ShNRf" id="5TPjGA9mdIF" role="33vP2m">
                     <node concept="3zrR0B" id="5TPjGA9mdHL" role="2ShVmc">
                       <node concept="3Tqbb2" id="5TPjGA9mdHM" role="3zrR0E">
-                        <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                        <ref role="ehGHo" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                       </node>
                     </node>
                   </node>
@@ -301,7 +300,7 @@
                 <node concept="GyYSE" id="4D18eT6WlEm" role="2Oq$k0" />
                 <node concept="1mIQ4w" id="4D18eT6WmRa" role="2OqNvi">
                   <node concept="chp4Y" id="4D18eT6WmTP" role="cj9EA">
-                    <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResource" />
+                    <ref role="cht4Q" to="vpss:5FLE9kbiC0r" resolve="SyncResourceExpression" />
                   </node>
                 </node>
               </node>
