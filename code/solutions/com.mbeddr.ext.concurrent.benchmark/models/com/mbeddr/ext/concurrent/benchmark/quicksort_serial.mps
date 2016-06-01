@@ -9,7 +9,6 @@
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
     <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="3" />
-    <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
     <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="3" />
   </languages>
   <imports>
@@ -224,8 +223,8 @@
         <property role="2hmy$m" value="100" />
       </node>
     </node>
-    <node concept="2NXPZ9" id="3UFVoWbKqgA" role="N3F5h">
-      <property role="TrG5h" value="empty_1406553054325_10" />
+    <node concept="2NXPZ9" id="68NhXN7VOCw" role="N3F5h">
+      <property role="TrG5h" value="empty_1462953804008_1" />
     </node>
     <node concept="1sgJKc" id="3UFVoWbKt_x" role="N3F5h">
       <property role="TrG5h" value="Item" />
@@ -237,8 +236,8 @@
         </node>
       </node>
     </node>
-    <node concept="2NXPZ9" id="6lkrG4djS1i" role="N3F5h">
-      <property role="TrG5h" value="empty_1406533091532_1" />
+    <node concept="2NXPZ9" id="2utze0zPp2t" role="N3F5h">
+      <property role="TrG5h" value="empty_1462885158394_1" />
     </node>
     <node concept="N3Fnx" id="7d7p6r3ek9u" role="N3F5h">
       <property role="TrG5h" value="main" />

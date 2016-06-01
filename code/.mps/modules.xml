@@ -6,8 +6,10 @@
       <modulePath path="$PROJECT_DIR$/_spreferences/PlatformTemplates/module.msd" folder="_spreferences" />
       <modulePath path="$PROJECT_DIR$/_spreferences/TypeSizeConfiguration/module.msd" folder="_spreferences" />
       <modulePath path="$PROJECT_DIR$/languages/NewLanguage/TasksAndSyncs.mpl" folder="old" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.amalthea.export/com.mbeddr.ext.amalthea.export.mpl" folder="amalthea" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.concurrent/com.mbeddr.ext.concurrent.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/basictests/basictests.msd" folder="old" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.ext.amalthea.export.runtime/com.mbeddr.ext.amalthea.export.runtime.msd" folder="amalthea" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.ext.concurrent.benchmark/com.mbeddr.ext.concurrent.benchmark.msd" folder="test" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.ext.concurrent.runtime/com.mbeddr.ext.concurrent.runtime.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.ext.concurrent.sandbox/com.mbeddr.ext.concurrent.sandbox.msd" folder="test" />
